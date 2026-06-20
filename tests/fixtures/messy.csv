@@ -1,0 +1,8 @@
+type, client, tx, amount
+deposit, 1, 1, 100.0
+this is a totally broken row
+deposit, 1, 2, abc
+deposit, 1, 3, 50.0
+withdrawal, 1, 4, 30.0
+dispute, 1, 999
+withdrawal, 2, 5, 10.0

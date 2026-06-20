@@ -1,0 +1,18 @@
+# Build output
+/target
+
+# IDE / editor
+/.idea
+/.vscode
+
+# Generated run output
+/accounts.csv
+
+# The original prompt and any sample input must never be committed.
+/prompt.*
+/transactions.csv
+
+/TRANSCRIPT.md
+
+# Note: Cargo.lock IS committed — this crate ships a binary, so a pinned
+# lockfile gives reproducible builds for reviewers.

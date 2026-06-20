@@ -1,0 +1,14 @@
+[package]
+name = "payments-engine"
+version = "0.1.0"
+edition = "2021"
+description = "A streaming, event-sourced toy payments engine"
+
+[dependencies]
+csv = "1"
+rust_decimal = "1"
+thiserror = "1"
+anyhow = "1"
+
+[dev-dependencies]
+proptest = "1"
